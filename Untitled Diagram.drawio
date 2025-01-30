@@ -27,7 +27,7 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-7" value="Backend returns 429 error alongside seconds left till next available URL shortener service" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="349" y="165" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-8" value="No" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-10" target="WIyWlLk6GJQsqaUBKTNV-11" edge="1">
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-8" value="Yes&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-10" target="WIyWlLk6GJQsqaUBKTNV-11" edge="1">
           <mxGeometry x="0.3333" y="20" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -40,7 +40,7 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-10" value="Ads viewed?&lt;div&gt;Session ID verification check&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="145" y="310" width="150" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="LNzXMTwk5TwSf8gLyrmz-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-11" target="LNzXMTwk5TwSf8gLyrmz-4">
+        <mxCell id="LNzXMTwk5TwSf8gLyrmz-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-11" target="LNzXMTwk5TwSf8gLyrmz-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="350" y="530" as="targetPoint" />
           </mxGeometry>
@@ -48,7 +48,7 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-11" value="Return to site, generate AI media" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="160" y="510" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LNzXMTwk5TwSf8gLyrmz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-12" target="LNzXMTwk5TwSf8gLyrmz-6">
+        <mxCell id="LNzXMTwk5TwSf8gLyrmz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-12" target="LNzXMTwk5TwSf8gLyrmz-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="540" y="370" as="targetPoint" />
           </mxGeometry>
@@ -56,13 +56,13 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-12" value="Return to site, do not generate AI media" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="369" y="350" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LNzXMTwk5TwSf8gLyrmz-1" value="Check if URL shortener service is available and not previously used by user" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="LNzXMTwk5TwSf8gLyrmz-1" value="Check if URL shortener service is available and not out of uses." style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="135" y="165" width="170" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="LNzXMTwk5TwSf8gLyrmz-4" value="Remove used URL shortener service for custom set amount of time in SHORTENERS global var in app.py" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="354" y="480" width="150" height="100" as="geometry" />
+        <mxCell id="LNzXMTwk5TwSf8gLyrmz-4" value="Remove a use for the used URL shortener&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="363" y="490" width="126" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="LNzXMTwk5TwSf8gLyrmz-6" value="Frontend serves timer for user to see how long until they can generate AI media again" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="LNzXMTwk5TwSf8gLyrmz-6" value="Frontend serves timer for user to see how long until they can generate AI media again" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="540" y="335" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
