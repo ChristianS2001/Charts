@@ -4,40 +4,75 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="dNxyNK7c78bLwvsdeMH5-11" value="URL_SHORTENERS Data Structure Per User" style="swimlane;html=1;startSize=20;horizontal=1;containerType=tree;glass=0;" parent="1" vertex="1">
+        <mxCell id="dNxyNK7c78bLwvsdeMH5-11" value="SHORTENERS Data Structure Per User" style="swimlane;html=1;startSize=20;horizontal=1;containerType=tree;glass=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="80" width="710" height="290" as="geometry">
             <mxRectangle x="40" y="80" width="240" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AkHZ4V428sYLesgF3qRh-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11" source="AkHZ4V428sYLesgF3qRh-1" target="AkHZ4V428sYLesgF3qRh-4">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="AkHZ4V428sYLesgF3qRh-18" value="URL Shortener Object" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry x="285" y="30" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="AkHZ4V428sYLesgF3qRh-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11" source="AkHZ4V428sYLesgF3qRh-1" target="AkHZ4V428sYLesgF3qRh-2">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="AkHZ4V428sYLesgF3qRh-21" value="number_of_uses" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry x="490" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="AkHZ4V428sYLesgF3qRh-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11" source="AkHZ4V428sYLesgF3qRh-1" target="AkHZ4V428sYLesgF3qRh-3">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="AkHZ4V428sYLesgF3qRh-20" value="cooldown_hours" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry x="360" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="AkHZ4V428sYLesgF3qRh-1" value="URL Shortener" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
-          <mxGeometry x="295" y="50" width="120" height="60" as="geometry" />
+        <mxCell id="AkHZ4V428sYLesgF3qRh-19" value="api_url" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry x="230" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="AkHZ4V428sYLesgF3qRh-2" value="Number of uses" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
-          <mxGeometry x="80" y="180" width="120" height="60" as="geometry" />
+        <mxCell id="AkHZ4V428sYLesgF3qRh-11" value="name" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry x="100" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="AkHZ4V428sYLesgF3qRh-3" value="API/Callback URL, to generate a URL with session_id verification" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
-          <mxGeometry x="510" y="180" width="120" height="60" as="geometry" />
+        <mxCell id="AkHZ4V428sYLesgF3qRh-22" value="the name of URL shortener service" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry x="115" y="250" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AkHZ4V428sYLesgF3qRh-4" value="Time until URL shortener can be used again, in seconds" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
-          <mxGeometry x="295" y="180" width="120" height="60" as="geometry" />
+        <mxCell id="AkHZ4V428sYLesgF3qRh-23" value="the quicklink or api url they provide" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry x="245" y="250" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AkHZ4V428sYLesgF3qRh-8" value="Default is 24 hours" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
-          <mxGeometry x="325" y="250" width="60" height="30" as="geometry" />
+        <mxCell id="AkHZ4V428sYLesgF3qRh-24" value="amount of hours for the cooldown" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry x="375" y="250" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AkHZ4V428sYLesgF3qRh-9" value="Default is 1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
-          <mxGeometry x="110" y="250" width="60" height="30" as="geometry" />
+        <mxCell id="AkHZ4V428sYLesgF3qRh-25" value="the number of uses for the URL shortener" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry x="505" y="250" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AkHZ4V428sYLesgF3qRh-10" value="Compatible with quick use links, and general API&#39;s" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
-          <mxGeometry x="505" y="250" width="130" height="30" as="geometry" />
+        <mxCell id="AkHZ4V428sYLesgF3qRh-26" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-11" source="AkHZ4V428sYLesgF3qRh-11" target="AkHZ4V428sYLesgF3qRh-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="350" as="sourcePoint" />
+            <mxPoint x="400" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="130" />
+              <mxPoint x="240" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AkHZ4V428sYLesgF3qRh-27" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="AkHZ4V428sYLesgF3qRh-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="430" as="sourcePoint" />
+            <mxPoint x="390" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AkHZ4V428sYLesgF3qRh-28" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="AkHZ4V428sYLesgF3qRh-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="430" as="sourcePoint" />
+            <mxPoint x="390" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AkHZ4V428sYLesgF3qRh-29" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="AkHZ4V428sYLesgF3qRh-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="430" as="sourcePoint" />
+            <mxPoint x="390" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="590" y="210" />
+              <mxPoint x="490" y="200" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
