@@ -1,69 +1,130 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.10">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.11">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1434" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-2" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="LNzXMTwk5TwSf8gLyrmz-1" edge="1">
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-2" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="ROE81Lw_4maxx3PLXAXH-0" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="220" y="170" as="targetPoint" />
+            <mxPoint x="220" y="90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="User Input" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="160" y="80" width="120" height="40" as="geometry" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="searchIcon from frontend is clicked" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="160" y="40" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-4" value="Yes" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LNzXMTwk5TwSf8gLyrmz-1" target="WIyWlLk6GJQsqaUBKTNV-10" edge="1">
-          <mxGeometry y="20" relative="1" as="geometry">
-            <mxPoint as="offset" />
-            <mxPoint x="220" y="250" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-5" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="LNzXMTwk5TwSf8gLyrmz-1" target="WIyWlLk6GJQsqaUBKTNV-7" edge="1">
-          <mxGeometry y="10" relative="1" as="geometry">
-            <mxPoint as="offset" />
-            <mxPoint x="270" y="210" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-7" value="Backend returns 429 error alongside seconds left till next available URL shortener service" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="349" y="165" width="160" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-8" value="Yes&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-10" target="WIyWlLk6GJQsqaUBKTNV-11" edge="1">
-          <mxGeometry x="0.3333" y="20" relative="1" as="geometry">
+        <mxCell id="ROE81Lw_4maxx3PLXAXH-2" value="If both are found" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ROE81Lw_4maxx3PLXAXH-0" target="ROE81Lw_4maxx3PLXAXH-32">
+          <mxGeometry x="-0.0756" y="10" relative="1" as="geometry">
+            <mxPoint x="410" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="140" />
+              <mxPoint x="360" y="141" />
+            </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-9" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-10" target="WIyWlLk6GJQsqaUBKTNV-12" edge="1">
-          <mxGeometry y="10" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-10" value="Ads viewed?&lt;div&gt;Session ID verification check&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="145" y="310" width="150" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="LNzXMTwk5TwSf8gLyrmz-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-11" target="LNzXMTwk5TwSf8gLyrmz-4" edge="1">
+        <mxCell id="ROE81Lw_4maxx3PLXAXH-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ROE81Lw_4maxx3PLXAXH-0" target="ROE81Lw_4maxx3PLXAXH-7">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="350" y="530" as="targetPoint" />
+            <mxPoint x="220" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-11" value="Return to site, generate AI content" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="160" y="510" width="120" height="40" as="geometry" />
+        <mxCell id="ROE81Lw_4maxx3PLXAXH-0" value="selectedModelType is checked and storedAdToken is checked" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="145" y="110" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LNzXMTwk5TwSf8gLyrmz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-12" target="LNzXMTwk5TwSf8gLyrmz-6" edge="1">
+        <mxCell id="ROE81Lw_4maxx3PLXAXH-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ROE81Lw_4maxx3PLXAXH-1" target="ROE81Lw_4maxx3PLXAXH-22">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="540" y="370" as="targetPoint" />
+            <mxPoint x="580" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-12" value="Return to site, do not generate AI content" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="369" y="350" width="120" height="40" as="geometry" />
+        <mxCell id="ROE81Lw_4maxx3PLXAXH-1" value="makeRequest() is called" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="580" y="110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LNzXMTwk5TwSf8gLyrmz-1" value="Check if URL shortener service is available and not out of uses." style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="135" y="165" width="170" height="90" as="geometry" />
+        <mxCell id="ROE81Lw_4maxx3PLXAXH-3" value="These boxes mean frontend!" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="370" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LNzXMTwk5TwSf8gLyrmz-4" value="Remove a use for the used URL shortener&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="363" y="490" width="126" height="80" as="geometry" />
+        <mxCell id="ROE81Lw_4maxx3PLXAXH-4" value="These boxes mean backend!" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="511" y="30" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LNzXMTwk5TwSf8gLyrmz-6" value="Frontend serves timer for user to see how long until they can generate AI content again" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="540" y="335" width="140" height="70" as="geometry" />
+        <mxCell id="ROE81Lw_4maxx3PLXAXH-5" value="INFO!!" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="304" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ROE81Lw_4maxx3PLXAXH-7" value="Else: we call get_ad_url with the provided userId and shortenerForFetch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="320" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ROE81Lw_4maxx3PLXAXH-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ROE81Lw_4maxx3PLXAXH-12" target="ROE81Lw_4maxx3PLXAXH-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ROE81Lw_4maxx3PLXAXH-12" value="/api/get_ad_url is called and it will take the user_id and shortener_name then create a session_id (this is the adToken) and place it into the API for the URL shortener as a URL parameter" style="shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;align=center;whiteSpace=wrap;html=1;spacingTop=0;spacingLeft=14;spacingRight=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="311" y="300" width="326" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ROE81Lw_4maxx3PLXAXH-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ROE81Lw_4maxx3PLXAXH-18" target="ROE81Lw_4maxx3PLXAXH-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950" y="365" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ROE81Lw_4maxx3PLXAXH-18" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%2Fapi%2Fget_ad_url%20is%20called%20and%20it%20will%20take%20the%20user_id%20and%20shortener_name%20then%20create%20a%20session_id%20(this%20is%20the%20adToken)%20and%20place%20it%20into%20the%20API%20for%20the%20URL%20shortener%20as%20a%20URL%20parameter%22%20style%3D%22shape%3Dparallelogram%3Bperimeter%3DparallelogramPerimeter%3BfixedSize%3D1%3Balign%3Dcenter%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BspacingTop%3D0%3BspacingLeft%3D14%3BspacingRight%3D14%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22304%22%20y%3D%22190%22%20width%3D%22326%22%20height%3D%22130%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;Then returns the callback_url (the URL the shortener uses to bring the user back to the page when the ads are completed)" style="shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;align=center;whiteSpace=wrap;html=1;spacingTop=0;spacingLeft=14;spacingRight=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="650" y="315" width="236" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ROE81Lw_4maxx3PLXAXH-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.028;entryY=0.431;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ROE81Lw_4maxx3PLXAXH-7" target="ROE81Lw_4maxx3PLXAXH-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ROE81Lw_4maxx3PLXAXH-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ROE81Lw_4maxx3PLXAXH-22" target="ROE81Lw_4maxx3PLXAXH-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ROE81Lw_4maxx3PLXAXH-22" value="the appropiate api is called depending on the selectedModelType so&amp;nbsp;/api/huggingface_call,&amp;nbsp;/api/genimg_tts, or&amp;nbsp;/api/sub_gen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="720" y="110" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ROE81Lw_4maxx3PLXAXH-33" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ROE81Lw_4maxx3PLXAXH-32" target="ROE81Lw_4maxx3PLXAXH-1">
+          <mxGeometry x="0.2" y="10" relative="1" as="geometry">
+            <mxPoint x="590" y="140" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ROE81Lw_4maxx3PLXAXH-35" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ROE81Lw_4maxx3PLXAXH-32" target="ROE81Lw_4maxx3PLXAXH-34">
+          <mxGeometry x="0.1429" y="-15" relative="1" as="geometry">
+            <mxPoint x="15" y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ROE81Lw_4maxx3PLXAXH-32" value="storedAdToken is checked to see if it =&#39;s the adToken returned from the URL shortener" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="390" y="110" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ROE81Lw_4maxx3PLXAXH-34" value="return to page with no AI content generated" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="391" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ROE81Lw_4maxx3PLXAXH-40" value="Once ads are&amp;nbsp;&lt;div&gt;completed&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;and viewed&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;div&gt;they are sent back to the&amp;nbsp;&lt;/div&gt;&lt;div&gt;main page&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ROE81Lw_4maxx3PLXAXH-39" target="ROE81Lw_4maxx3PLXAXH-0">
+          <mxGeometry x="-0.93" y="75" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="985" y="470" />
+              <mxPoint x="125" y="470" />
+              <mxPoint x="125" y="140" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ROE81Lw_4maxx3PLXAXH-39" value="User is directed to URL shortener where they are to complete the process and view all the ads" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="900" y="335" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ROE81Lw_4maxx3PLXAXH-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ROE81Lw_4maxx3PLXAXH-42" target="ROE81Lw_4maxx3PLXAXH-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ROE81Lw_4maxx3PLXAXH-42" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%2Fapi%2Fget_ad_url%20is%20called%20and%20it%20will%20take%20the%20user_id%20and%20shortener_name%20then%20create%20a%20session_id%20(this%20is%20the%20adToken)%20and%20place%20it%20into%20the%20API%20for%20the%20URL%20shortener%20as%20a%20URL%20parameter%22%20style%3D%22shape%3Dparallelogram%3Bperimeter%3DparallelogramPerimeter%3BfixedSize%3D1%3Balign%3Dcenter%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BspacingTop%3D0%3BspacingLeft%3D14%3BspacingRight%3D14%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22304%22%20y%3D%22190%22%20width%3D%22326%22%20height%3D%22130%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;The backend processes those requests and returns the AI content (Images, subtitles, etc..)" style="shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;align=center;whiteSpace=wrap;html=1;spacingTop=0;spacingLeft=14;spacingRight=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="750" y="200" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ROE81Lw_4maxx3PLXAXH-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ROE81Lw_4maxx3PLXAXH-45" target="ROE81Lw_4maxx3PLXAXH-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1130" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1110" y="240" />
+              <mxPoint x="1110" y="241" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ROE81Lw_4maxx3PLXAXH-45" value="loading indicator plays which things are processing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="970" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ROE81Lw_4maxx3PLXAXH-48" value="User content is returned, or an error is displayed" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1110" y="210" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
